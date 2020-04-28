@@ -85,5 +85,17 @@ Export plugin path:
 Go to the world folder and access the `.world` file:
 `cd ../world && gedit <your_world_name>`
 
+copy this code: `<plugin name="hello" filename="libhello.so"/>`
+
+and paste it below the `<world name="default">` line. 
+
+Run the gazebo program with: `gazebo myworld` 
+Your message would be printed in the terminal.
+
+## Troubleshooting
+In case your plugins failed to load, you'll have to check and troubleshoot your error. The best way to troubleshoot errors with Gazebo is to launch it with the verbose as such:
+
+`gazebo myworld --verbose`
+
 
 
