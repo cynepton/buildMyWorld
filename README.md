@@ -76,9 +76,12 @@ Go to the Build folder and compile the code:
 `cd /build`
 `cmake ../`
 `make` 
+
 You might get errors if your system is not up to date! Incase of that, run `sudo apt-get update && sudo apt-get upgrade -y`
+
 Export plugin path:
 `export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/workspace/myrobot/build`
+
 Go to the world folder and access the `.world` file:
 `cd ../world && gedit <your_world_name>`
 
