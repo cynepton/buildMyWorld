@@ -22,3 +22,5 @@ A simple Gazebo world with a created robot model and a few imported models. In p
 - In the Gazebo Menu Bar, Click `Edit` and then click `Model Editor` in the options.
 
 ## Wiritng the Plugin to display the specified message in the terminal
+```
+cd /script #from the root repository folder, access the script directory
